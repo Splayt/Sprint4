@@ -23,7 +23,7 @@ public class OrderPageTest {
     }
 
     @Test
-    public void OrderPageScooterOrderPlacementWithSuccessfullyCreatedField() {
+    public void orderPageScooterOrderPlacementWithSuccessfullyCreatedField() {
         objOrderPage.orderPlacement(
                 "Егор",
                 "Дмитриев",
@@ -34,7 +34,7 @@ public class OrderPageTest {
         assertTrue("Window order successfully created is not displayed", objOrderPage.isOrderSuccessfullyCreatedIsDisplayed());
     }
     @Test
-    public void OrderPageScooterOrderPlacementWithSuccessfullyCreatedField2() {
+    public void orderPageScooterOrderPlacementWithSuccessfullyCreatedField2() {
         objOrderPage.orderPlacementWithOtherData(
                 "имя",
                 "фамилия",
